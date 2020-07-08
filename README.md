@@ -3,14 +3,14 @@
 
 ### Installing
 
-Yarn used as a package manager, so first install deps by running
+Yarn used as a package manager, so first install deps by running.
 
 ```
 yarn
 ```
 
 from project root. Use node version 12 or 14.
-
+Also for now you have to add `.env` file in the root folder and `ACCESS_TOKEN_KEY` random string for generating jwt tokens.
 
 ### Running
 
