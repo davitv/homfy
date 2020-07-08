@@ -1,0 +1,33 @@
+{
+  "editor.rulers": [
+    90
+  ],
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 4,
+  "editor.trimAutoWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.removeUnusedImports": false,
+    "source.fixAll.eslint": true
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": false,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "build": false,
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "typescript.tsdk": "./frontend/node_modules/typescript/lib",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.preferences.quoteStyle": "single",
+  "eslint.run": "onSave",
+  "eslint.nodePath": "./frontend/node_modules",
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ]
+}
